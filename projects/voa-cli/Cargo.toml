@@ -1,0 +1,22 @@
+[package]
+name = "voa"
+version = "0.0.0"
+authors = ["Aster <192607617@qq.com>"]
+description = "Tools for voa development"
+repository = "https://github.com/oovm/valkyrie-of-asgard"
+documentation = "https://docs.rs/voa"
+readme = "readme.md"
+license = "MPL-2.0"
+edition = "2021"
+exclude = ["package.json", "tests/**"]
+
+[dependencies]
+clap = "4.4.11"
+
+[dev-dependencies]
+
+[features]
+default = []
+
+[package.metadata.docs.rs]
+all-features = true
